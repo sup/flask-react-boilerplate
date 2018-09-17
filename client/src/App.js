@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import SubHeader from './components/SubHeader';
+import TodoList from './components/TodoList';
+
 
 class App extends Component {
   render() {
@@ -8,9 +10,11 @@ class App extends Component {
         <div>
             <Header/>
             <SubHeader/>
+            <TodoList/>
         </div>
     );
   }
 }
+
 
 export default App;
