@@ -1,9 +1,9 @@
 from flask import Flask
-from db.config import Config
+from config import Config
 from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
 app.config.from_object(Config)
 db = SQLAlchemy(app)
 
-from backend import routes, models
+from app import routes, models

@@ -1,4 +1,4 @@
-from backend import app, db
+from app import app, db
 from flask import jsonify
 from models import Todo
 
